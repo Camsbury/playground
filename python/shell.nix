@@ -1,0 +1,1 @@
+/home/camsbury/projects/Camsbury/config/nix-conf/shells/py.nix
