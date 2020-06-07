@@ -1,0 +1,9 @@
+{:paths ["src"]
+ :deps  {org.clojure/clojure {:mvn/version "1.10.0"}
+         ubergraph {:mvn/version "0.8.2"}
+         com.clojure-goes-fast/clj-async-profiler {:mvn/version "0.4.1"}
+         criterium {:mvn/version "0.4.5"}
+         aysylu/loom {:mvn/version "1.0.2"}
+         com.taoensso/timbre {:mvn/version "4.10.0"}
+         teknql/wing {:git/url "https://github.com/teknql/wing.git"
+                     :sha "7e13c4b897f53330cf52e9659bd31ec3c3033547"}}}
