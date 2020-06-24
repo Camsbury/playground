@@ -7,22 +7,17 @@
                 '[pandas :as pd]
                 '[kaggle.api :as kg])
 
-;; kaggle.api.authenticate()
-;; kaggle.api.dataset_download_files('ruchi798/tv-shows-on-netflix-prime-video-hulu-and-disney', path='../resources', unzip=True)
+(defn download_kaggle_dataset [name]
+  (let [api (kg/KaggleApi)]
+    (py. api authenticate)
+    (py. api dataset_download_files name
+         :path (str "./resources/" name) :unzip true)))
 
-;; (kg/authenticate)
-(def api (kg/KaggleApi))
-(py. api authenticate)
-(py.
- api
- dataset_download_files
- "ruchi798/tv-shows-on-netflix-prime-video-hulu-and-disney"
- :path
- "./resources"
- :unzip
- true)
 
 
 (comment
-  (def test-ary (np/array [[1 2][3 4]]))
-  (def a 5))
+  (let [name "ruchi798/tv-shows-on-netflix-prime-video-hulu-and-disney"
+        path (str "./resources/" name "/tv_shows.csv")]
+    (download_kaggle_dataset name)
+    (def df (pd/read_csv path)))
+  (py.- df columns))

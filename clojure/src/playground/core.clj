@@ -1,6 +1,3 @@
-(ns playground.core)
 
-(def a {:hi "there"})
-
-(comment
-  )
+(ns playground.core
+  (:require [criterium.core :as bench]))
