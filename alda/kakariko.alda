@@ -1,0 +1,25 @@
+# Kakariko Village Theme
+# https://www.youtube.com/watch?v=ys0zXG_sZ4Y
+
+(tempo! 100)
+
+
+# Original Harmony
+piano:
+  o2 b-8 o3 f8 b-8 o4 d8 o3 b-8 f8
+  o2 g8 o3 d8 g8 b-8 g8 d8
+  o3 c8 g8 b-8 o4 f8 o3 b-8 g8
+  o2 f8 o3 f8 o4 c8 e-8 f4/c8 o3 a8
+
+  o4 b-2/<<b-8 o3 f8 b-8 o4 d8 f4/<b-8 f8
+  o5 d2/<<<g8 o3 d8 g8 b-8 >b-4/<g8 d8
+  o5 f2.~2/<<c8 g8 b-8 o4 f8 o3 b-8 g8
+  o2 f8 o3 f8 o4 c8 e-8 f4/c8 o3 a8
+
+  o4 b-2/<<b-8 o3 f8 b-8 o4 d8 f4/<b-8 f8
+  o5 d2/<<<g8 o3 d8 g8 b-8 >b-4/<g8 d8
+  o5 f2.~2/<<c8 g8 b-8 o4 f8 o3 b-8 g8
+  o2 f8 o3 f8 o4 c8 e-8 f4/c8 o3 a8
+
+  o5 g2./<<<e-8 b-8 >b-8 g8 b-8 g8
+  o4 a2/<<f8 c8 a8 f8 >>>g4/<<<a8 f8
