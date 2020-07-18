@@ -1,0 +1,9 @@
+{:paths ["src"]
+ :deps  {optimus {:mvn/version "1.0.0-rc3"}
+         stasis {:mvn/version "2.5.0"}
+         hiccup {:mvn/version "1.0.5"}
+         garden {:mvn/version "1.3.10"}
+         ring/ring {:mvn/version "1.8.1"}
+         teknql/systemic {:mvn/version "0.2.0"}
+         teknql/wing {:git/url "https://github.com/teknql/wing.git"
+                      :sha "7e13c4b897f53330cf52e9659bd31ec3c3033547"}}}

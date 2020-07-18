@@ -1,8 +1,9 @@
 *.cpcache/
 *.envrc
-*.nrepl-port
 *.hgignore
 *.mypy_cache/
+*.nrepl-port
+*/.clj-kondo/
 *kaggle/
 *ml/resources/
 *scratch/
