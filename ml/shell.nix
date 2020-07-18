@@ -4,9 +4,13 @@ let
   };
   python-custom = (pkgs.python3.withPackages (
         pythonPackages: with pythonPackages; [
+          gym
           kaggle
+          matplotlib
           numpy
+          scipy
           pandas
+          pillow
           scikitlearn
         ]));
 in
