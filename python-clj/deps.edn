@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :deps  {clj-python/libpython-clj {:mvn/version "1.44"}
+         environ                  {:mvn/version "1.2.0"}
+         teknql/wing
+         {:git/url
+          "https://github.com/teknql/wing.git"
+          :sha
+          "7e13c4b897f53330cf52e9659bd31ec3c3033547"}}}
